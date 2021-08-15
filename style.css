@@ -1,3 +1,40 @@
-h1 {
-    color: red;
+@font-face {
+    font-family: 'Raleway';
+    src: url('Fonts/raleway/Raleway-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Raleway', 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.75rem;
+}
+
+.logo {
+    width:  97px;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.link {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 25px;
+}
+
+.link a {
+    color: black;
+}
+
+.section {
+    font-size: 1.75rem;
+    margin-top: 40px;
+    margin-left: 50px;
 }
