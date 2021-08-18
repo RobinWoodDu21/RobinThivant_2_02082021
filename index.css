@@ -40,9 +40,37 @@ body {
 }
 
 #imap {
-    background-color: gray;
-    border-style: solid;
-    border-width: 1px;
-    border-color: gray;
-    padding: 6px;
+    background-color: #F2F2F2;
+    border: none;
+    padding: 1.25rem 1.5rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.input {
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.searchBtn {
+    text-align: center;
+    padding: .75rem 1.25rem;
+    border-radius: 0 1rem 1rem 0;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.fas[data-active="true"] {
+    color: #0165fc;
+}
+
+.fas[data-active="false"] {
+    color: #d1d1d9;
 }
