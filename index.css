@@ -47,10 +47,7 @@ body {
 }
 
 .input {
-    border-right: none;
-    border-left: none;
-    border-top: #F2F2F2 1px solid;
-    border-bottom: #F2F2F2 1px solid;
+    border: none;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     box-sizing: border-box;
@@ -67,10 +64,33 @@ body {
     font-weight: bold;
 }
 
+.btnIcon {
+    border-radius: 2rem;
+    padding: 1rem;
+    border: black 1px solid;
+    color: #0165fc;
+    background-color: rgb(170, 190, 255);
+}
+
+.btn {
+    border-radius: 2rem;
+    background-color: white;
+    border: #F2F2F2 1px solid;
+}
+
+.btnFiltre {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .fas[data-active="true"] {
     color: #0165fc;
 }
 
 .fas[data-active="false"] {
     color: #d1d1d9;
+}
+
+li {
+    list-style-type: none;
 }
