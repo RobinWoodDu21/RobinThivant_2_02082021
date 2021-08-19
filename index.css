@@ -81,6 +81,18 @@ body {
 .btnFiltre {
     display: flex;
     flex-flow: row wrap;
+    margin-top: 15px;
+}
+
+.sectionMain {
+    display: flex;
+    justify-items: flex-start;
+    background-color: lightgray;
+    max-width: 66%;
+}
+
+.sectionMain a {
+    color: black;
 }
 
 .fas[data-active="true"] {
