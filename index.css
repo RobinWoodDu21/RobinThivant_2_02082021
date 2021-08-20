@@ -84,14 +84,39 @@ body {
     margin-top: 15px;
 }
 
-.sectionMain {
+.iDiv {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.info {
+    border-radius: 2rem;
+    padding: 1rem;
+    border: #d1d1d9 1px solid;
+    color: #0165fc;
+    margin-right: 1rem;
+}
+
+.leftSection {
     display: flex;
     justify-items: flex-start;
     background-color: lightgray;
-    max-width: 66%;
+    max-width: 55%;
+    margin-left: 25px;
+    padding-left: 25px;
 }
 
-.sectionMain a {
+.leftSection a {
+    color: black;
+}
+
+.rightSection {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgray;
+}
+
+.rightSection a {
     color: black;
 }
 
