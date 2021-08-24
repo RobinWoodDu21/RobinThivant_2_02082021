@@ -137,13 +137,13 @@ body {
     width: 33%;
     max-height: 2150px;
     border-radius: 10px;
- }
+}
 
- aside article {
+.article {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
- }
+}
 
 .aside a {
     color: black;
