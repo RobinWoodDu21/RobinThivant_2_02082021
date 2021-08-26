@@ -97,6 +97,34 @@ body {
     margin-right: 1rem;
 }
 
+.stars {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.auCoeurDeLEau {
+    width: 250px;
+    height: auto;
+}
+
+aside .cardPop {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: white solid 1px;
+}
+
+.cardPop h5,p {
+    display: flex;
+    justify-content: center;
+}
+
+aside article img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 .divMain {
     display: flex;
     justify-content: space-between;
@@ -107,10 +135,16 @@ body {
     background-color: white;
     border-radius: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: start;
-    border: black solid 2px;
+    border: white solid 1px;
     width: fit-content;
+    margin-bottom: 10px;
+}
+
+.card h5,p {
+    display: flex;
+    justify-content: center;
 }
 
 .card img {
