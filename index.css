@@ -65,15 +65,15 @@ body {
 }
 
 .btnIcon {
-    border-radius: 2rem;
-    padding: 1rem;
+    border-radius: 200px;
+    padding: 18px;
     border: black 1px solid;
     color: #0165fc;
     background-color: rgb(170, 190, 255);
 }
 
 .btn {
-    border-radius: 2rem;
+    border-radius: 200px;
     background-color: white;
     border: #F2F2F2 1px solid;
 }
@@ -101,6 +101,21 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 15px 25px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: black solid 2px;
+    width: fit-content;
+}
+
+.card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .imgMain {
