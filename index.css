@@ -67,20 +67,25 @@ body {
 .btnIcon {
     border-radius: 200px;
     padding: 18px;
-    border: black 1px solid;
+    border: #F2F2F2 1px solid;
     color: #0165fc;
-    background-color: rgb(170, 190, 255);
+    background-color: rgb(205, 215, 255);
 }
 
 .btn {
     border-radius: 200px;
     background-color: white;
-    border: #F2F2F2 1px solid;
+    border: ;
+}
+
+.divFiltre {
+    border-radius: 200px;
+    border: #d1d1d9 1px solid;
+    padding-right: 5px;
 }
 
 .btnFiltre {
     display: inline-flex;
-    flex-flow: wrap;
     margin-top: 15px;
 }
 
