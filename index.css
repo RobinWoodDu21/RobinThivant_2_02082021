@@ -79,9 +79,15 @@ body {
 }
 
 .btnFiltre {
-    display: flex;
-    flex-flow: row wrap;
+    display: inline-flex;
+    flex-flow: wrap;
     margin-top: 15px;
+}
+
+.btnFiltre ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .iDiv {
