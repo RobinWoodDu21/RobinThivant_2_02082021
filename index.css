@@ -74,13 +74,23 @@ body {
 
 .divFiltre {
     border-radius: 200px;
-    border: #d1d1d9 1px solid;
-    padding-right: 5px;
+    border: #F2F2F2 1px solid;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.divFiltre:hover {
+    background-color: #d1d1d9;
 }
 
 .btnFiltre {
     display: inline-flex;
     margin-top: 15px;
+}
+
+.btnFiltre h3 {
+    position: relative;
+    bottom: 5px;
 }
 
 .btnFiltre ul {
