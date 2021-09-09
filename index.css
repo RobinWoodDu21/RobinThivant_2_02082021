@@ -128,17 +128,21 @@ body {
 }
 
 .auCoeurDeLEau {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
+}
+
+.card {
+    height: fit-content;
+    width: fit-content;
 }
 
 .cardPop, .card {
     background-color: white;
     border-radius: 20px;
     box-sizing: border-box;
-    box-shadow: 0 0 16px black;
+    box-shadow: 0 0 16px grey;
     padding: 0.375rem;
 }
 
@@ -147,28 +151,31 @@ body {
     justify-content: center;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .divMain {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    background-color: lightgray;    
     margin: 15px 25px;
 }
 
 .imgMain {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
 }
 
 .sectionMain {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 2rem;
-    row-gap: 2rem;
+    display: flex;
+    flex-flow: row wrap;
     background-color: lightgray;
     padding-left: 25px;
     border-radius: 10px;
-    width: 63%;
 }
 
 .sectionMain a {
@@ -176,14 +183,7 @@ body {
 }
 
 aside {
-    display: grid;
-    padding: 2rem;
-    row-gap: 2rem;
-    background-color: lightgray;
-    width: 36%;
-    border-radius: 10px;
-    grid-template-rows: repeat(3,1fr);
-    align-items: start;
+    
 }
 
 aside a {
@@ -202,14 +202,51 @@ li {
     list-style-type: none;
 }
 
-.divActSection {
-    display: flex;
-    flex-flow: row wrap;
+.actSection {
+    
+}
+
+.actSection h2 {
+
 }
 
 .imgActSection {
-    width: 200px;
+    width: 100%;
     height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.cardAct {
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 16px grey;
+    padding: 0.375rem;
+    border: gray 1px solid;
+}
+
+#vieuxPort {
+
+}
+
+#fort {
+
+}
+
+#frioul {
+
+}
+
+#pNdC {
+
+}
+
+#nDdlG {
+
+}
+
+#pL {
+
 }
 
 .divFooter {
