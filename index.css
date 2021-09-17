@@ -3,19 +3,21 @@
     src: url('Fonts/raleway/Raleway-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Raleway Bold';
+    src: url('Fonts/raleway/Raleway-Bold.ttf') format('truetype');
+}
+
 body {
     font-family: 'Raleway', 'Times New Roman', Times, serif;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 1.75rem;
+b {
+    font-family: 'Raleway Bold';
 }
 
 .logo {
-    width:  97px;
+    width: 97px;
     height: 45px;
     margin-left: 25px;
     margin-top: 15px;
@@ -29,14 +31,40 @@ body {
     margin-top: 25px;
 }
 
-.link a {
-    color: black;
+.divBfrHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.75rem;
 }
 
-.section {
+.link a {
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+}
+
+#inscription {
+    color: blue;
+}
+
+.link a:focus {
+    color: blue;
+    border-top: 3px solid blue;
+    text-decoration: none;
+}
+
+.header {
     font-size: 1.75rem;
-    margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 25px;
+}
+
+.fas[data-active="true"] {
+    color: #0165fc;
+}
+
+.fas[data-active="false"] {
+    color: #d1d1d9;
 }
 
 .imap {
@@ -59,7 +87,7 @@ body {
     padding: .75rem 1.25rem;
     border-radius: 0 1rem 1rem 0;
     border: none;
-    background-color: blue;
+    background-color: #0165fc;
     color: white;
     font-weight: bold;
 }
@@ -112,141 +140,97 @@ body {
     margin-right: 1rem;
 }
 
-.printMore {
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.sectionMain header {
-    grid-column: 1/-1;
-}
-
-.stars {
+.main {
     display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
+    flex-direction: row;
 }
 
-.auCoeurDeLEau {
-    width: 150px;
-    height: 150px;
+.main a {
+    color: black;
+    text-decoration: none;
+}
+
+.sectHeb {
+    background-color: #d1d1d9;
     border-radius: 20px;
+    margin-left: 25px;
+    width: 55%;
+    height: fit-content;
+}
+
+.sectPop {
+    background-color: #d1d1d9;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.h3Heb {
+    padding-left: 20px;
+}
+
+.div1, .div2 {
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: max-content;
 }
 
 .card {
     height: fit-content;
     width: fit-content;
-}
-
-.cardPop, .card {
     background-color: white;
     border-radius: 20px;
     box-sizing: border-box;
     box-shadow: 0 0 16px grey;
     padding: 0.375rem;
+    margin-right: 20px;
 }
 
-.card, .cardPop h5,p {
+.card h5, p, .stars{
     display: flex;
     justify-content: center;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.divMain {
-    display: flex;
-    flex-direction: column;
-    background-color: lightgray;    
-    margin: 15px 25px;
-}
-
-.imgMain {
-    width: 150px;
-    height: 150px;
+.cardPop {
+    height: fit-content;
+    width: max-content;
+    background-color: white;
     border-radius: 20px;
+    box-shadow: 0 0 16px grey;
+    margin: 20px;
+    padding: 0.375rem;
 }
 
-.sectionMain {
+.imgSectHeb {
+    width: 200px;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.imgSectPop {
+    width: 200px;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.printMore {
+    cursor: pointer;
+}
+
+.divPop {
     display: flex;
     flex-flow: row wrap;
-    background-color: lightgray;
-    padding-left: 25px;
-    border-radius: 10px;
+    justify-content: center;
 }
 
-.sectionMain a {
-    color: black;
-}
-
-aside {
-    
-}
-
-aside a {
-    color: black;
-}
-
-.fas[data-active="true"] {
-    color: #0165fc;
-}
-
-.fas[data-active="false"] {
-    color: #d1d1d9;
-}
-
-li {
-    list-style-type: none;
-}
-
-.actSection {
-    
-}
-
-.actSection h2 {
-
-}
-
-.imgActSection {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-.cardAct {
-    border-radius: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 0 16px grey;
-    padding: 0.375rem;
-    border: gray 1px solid;
-}
-
-#vieuxPort {
-
-}
-
-#fort {
-
-}
-
-#frioul {
-
-}
-
-#pNdC {
-
-}
-
-#nDdlG {
-
-}
-
-#pL {
-
+.iPop {
+    position: relative;
+    left: 20px;
+    top: 28px;
 }
 
 .divFooter {
