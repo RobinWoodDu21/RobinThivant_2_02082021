@@ -92,6 +92,10 @@ b {
     font-weight: bold;
 }
 
+#iSearch {
+    display: none;
+}
+
 .btnIcon {
     border-radius: 200px;
     padding: 18px;
@@ -150,11 +154,17 @@ b {
     text-decoration: none;
 }
 
+.hebergement {
+    width: 100%;
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
 .sectHeb {
     background-color: #d1d1d9;
     border-radius: 20px;
     margin-left: 25px;
-    width: 55%;
+    width: 63%;
     height: fit-content;
 }
 
@@ -162,7 +172,7 @@ b {
     background-color: #d1d1d9;
     border-radius: 20px;
     margin-left: 20px;
-    width: 40%;
+    width: 35%;
 }
 
 .h3Heb {
@@ -231,6 +241,11 @@ b {
     position: relative;
     left: 20px;
     top: 28px;
+}
+
+.actSection {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .divFooter {
