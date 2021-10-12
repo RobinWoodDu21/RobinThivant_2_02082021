@@ -35,7 +35,6 @@ b {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 1.75rem;
 }
 
 .link a {
@@ -55,7 +54,6 @@ b {
 }
 
 .header {
-    font-size: 1.75rem;
     margin-left: 25px;
 }
 
@@ -70,7 +68,7 @@ b {
 .imap {
     background-color: #F2F2F2;
     border: none;
-    padding: 1.25rem 1.5rem;
+    padding: 0.8rem 1.25rem;
     border-radius: 1rem 0 0 1rem;
 }
 
@@ -122,7 +120,7 @@ b {
 
 .btnFiltre h3 {
     position: relative;
-    bottom: 5px;
+    top: 15px;
 }
 
 .btnFiltre ul {
@@ -146,7 +144,7 @@ b {
 
 .main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .main a {
@@ -172,7 +170,7 @@ b {
     background-color: #d1d1d9;
     border-radius: 20px;
     margin-left: 20px;
-    width: 35%;
+    width: 33%;
 }
 
 .h3Heb {
@@ -189,16 +187,16 @@ b {
 
 .card {
     height: fit-content;
-    width: fit-content;
+    width: 230px;
     background-color: white;
     border-radius: 20px;
     box-sizing: border-box;
     box-shadow: 0 0 16px grey;
-    padding: 0.375rem;
+    padding-bottom: 0.375rem;
     margin-right: 20px;
 }
 
-.card h5, p, .stars{
+.card h5, p, .stars, figure{
     display: flex;
     justify-content: center;
 }
@@ -214,7 +212,7 @@ b {
 }
 
 .imgSectHeb {
-    width: 200px;
+    width: 225px;
     height: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -240,7 +238,12 @@ b {
 .iPop {
     position: relative;
     left: 20px;
-    top: 28px;
+    top: 23px;
+}
+
+.Activity {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .actSection {
