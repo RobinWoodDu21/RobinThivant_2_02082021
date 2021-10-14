@@ -187,12 +187,12 @@ b {
 
 .card {
     height: fit-content;
-    width: 230px;
+    width: fit-content;
     background-color: white;
     border-radius: 20px;
     box-sizing: border-box;
     box-shadow: 0 0 16px grey;
-    padding-bottom: 0.375rem;
+    padding: 0.2rem;
     margin-right: 20px;
 }
 
@@ -202,31 +202,38 @@ b {
 }
 
 .cardPop {
+    display: flex;
+    flex-direction: row;
     height: fit-content;
-    width: max-content;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 16px grey;
     margin: 20px;
-    padding: 0.375rem;
+    padding: 0.2rem;
+}
+
+.divIntro {
+    text-align: center;
+    margin-left: 25px;
 }
 
 .imgSectHeb {
-    width: 225px;
-    height: auto;
+    width: 275px;
+    height: 180px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .imgSectPop {
     width: 200px;
-    height: auto;
+    height: 175px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 .printMore {
     cursor: pointer;
+    margin-left: 20px;
 }
 
 .divPop {
@@ -256,4 +263,13 @@ b {
     flex-flow: row wrap;
     justify-content: space-evenly;
     background-color: lightgray;
+}
+
+.divFooter h3 {
+    text-align: center;
+}
+
+.divFooter a {
+    color: black;
+    text-decoration: none;
 }
