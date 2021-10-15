@@ -248,14 +248,23 @@ b {
     top: 23px;
 }
 
-.Activity {
-    display: flex;
-    flex-flow: row wrap;
+.titleAct {
+    margin-left: 25px;
 }
 
 .actSection {
-    display: flex;
-    flex-flow: row wrap;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.cardAct {
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 16px grey;
+    margin-left: 25px;
 }
 
 .divFooter {
@@ -272,4 +281,46 @@ b {
 .divFooter a {
     color: black;
     text-decoration: none;
+}
+
+#vieuxPort {
+    height: 400px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#fort {
+    height: auto;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#frioul {
+    height: auto;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#pNdC {
+    height: 400px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#nDdlG {
+    height: auto;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#pL {
+    height: auto;
+    width: 400px;    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
