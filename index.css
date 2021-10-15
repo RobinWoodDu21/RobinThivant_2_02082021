@@ -267,6 +267,11 @@ b {
     margin-left: 25px;
 }
 
+.divActTitle {
+    display: flex;
+    justify-content: center;
+}
+
 .divFooter {
     display: flex;
     flex-flow: row wrap;
