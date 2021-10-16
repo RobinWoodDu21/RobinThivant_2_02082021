@@ -256,6 +256,7 @@ b {
     display: inline-flex;
     flex-flow: row wrap;
     width: 100%;
+    height: fit-content;
 }
 
 .cardAct {
@@ -271,6 +272,11 @@ b {
 .divActTitle {
     display: flex;
     justify-content: center;
+}
+
+.inline {
+    display: inline-flex;
+    flex-flow: row wrap;
 }
 
 .divFooter {
