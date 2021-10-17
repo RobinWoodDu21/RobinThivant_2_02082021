@@ -279,6 +279,10 @@ b {
     flex-flow: row wrap;
 }
 
+.divMinScale {
+    margin-bottom: 25px;
+}
+
 .divFooter {
     display: flex;
     flex-flow: row wrap;
@@ -296,43 +300,43 @@ b {
 }
 
 #vieuxPort {
-    height: 400px;
-    width: 400px;
+    height: 345px;
+    width: 345px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #fort {
     height: auto;
-    width: 400px;
+    width: 345px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #frioul {
     height: auto;
-    width: 400px;
+    width: 345px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #pNdC {
-    height: 400px;
-    width: 400px;
+    height: 345px;
+    width: 345px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #nDdlG {
     height: auto;
-    width: 400px;
+    width: 345px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #pL {
     height: auto;
-    width: 400px;    
+    width: 345px;    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
