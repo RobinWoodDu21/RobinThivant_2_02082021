@@ -288,6 +288,7 @@ b {
     flex-flow: row wrap;
     justify-content: space-evenly;
     background-color: lightgray;
+    margin-top: 25px;
 }
 
 .divFooter h3 {
@@ -300,42 +301,42 @@ b {
 }
 
 #vieuxPort {
-    height: 345px;
+    height: 500px;
     width: 345px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #fort {
-    height: auto;
+    height: 285px;
     width: 345px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #frioul {
-    height: auto;
+    height: 125px;
     width: 345px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #pNdC {
-    height: 345px;
+    height: 500px;
     width: 345px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #nDdlG {
-    height: auto;
+    height: 205px;
     width: 345px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #pL {
-    height: auto;
+    height: 205px;
     width: 345px;    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
