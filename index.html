@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Maquette Réservia</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="petite_resolution.css">
+    <link rel="stylesheet" media="all and (max-device-width: 768px)" href="petite_resolution.css">
     <script src="https://kit.fontawesome.com/52339f9582.js" crossorigin="anonymous"></script>
 </head>
 
@@ -29,10 +29,10 @@
         
         <ul class="link">
             <li>
-                <a href="#Hébergements">Hébergements</a>
+                <a href="#Hébergements" id="Heb">Hébergements</a>
             </li>
             <li>
-                <a href="#Activités">Activités</a>
+                <a href="#Activités" id="Act">Activités</a>
             </li>
             <li>
                 <b><a href="#" id="inscription">S'inscrire</a></b>
@@ -51,7 +51,7 @@
                 <i class="fas fa-map-marker-alt imap"></i>
             </span>
             <input type="search" placeholder="Marseille, France" class="input">
-            <button class="searchBtn" id="pSearch"><i class="fas fa-search" id="iSearch"></i>Rechercher</button>
+            <button class="searchBtn"><i class="fas fa-search" id="iSearch"></i><p id="pSearch">Rechercher</p></button>
         </form>
 
         <div class="btnFiltre">

@@ -102,6 +102,10 @@ li {
     display: none;
 }
 
+#pSearch {
+    display: block;
+}
+
 .btnIcon {
     border-radius: 200px;
     padding: 18px;

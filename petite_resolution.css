@@ -1,5 +1,21 @@
-@media all and (orientation: portrait) {
-    #pSearch {
-        display: none;
-    }
+#pSearch {
+    display: none;
+}
+
+#Heb {
+    position: relative;
+}
+
+#Act {
+    position: relative;
+}
+
+.searchBtn {
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+#iSearch {
+    display: block;
+    color: white;
 }
