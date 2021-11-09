@@ -21,6 +21,10 @@ body {
     position: relative;
 }
 
+.imap {
+    padding: .9rem;
+}
+
 .searchBtn {
     border-radius: 5px;
     padding: .9rem;
@@ -29,4 +33,56 @@ body {
 #iSearch {
     display: block;
     color: white;
+}
+
+.actSection {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.divFooter {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#vieuxPort {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#fort {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#frioul {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#pNdC {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#nDdlG {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#pL {
+    height: 100%;
+    width: 100%;    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }

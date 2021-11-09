@@ -81,7 +81,7 @@ li {
 }
 
 .input {
-    border: none;
+    border: none ;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     box-sizing: border-box;
@@ -90,7 +90,7 @@ li {
 
 .searchBtn {
     text-align: center;
-    padding: .75rem 1.25rem;
+    padding: .03rem 1.25rem;
     border-radius: 0 1rem 1rem 0;
     border: none;
     background-color: #0165fc;
