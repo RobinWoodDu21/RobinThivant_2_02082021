@@ -81,7 +81,7 @@ li {
 }
 
 .input {
-    border: none ;
+    border: none;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     box-sizing: border-box;
@@ -192,9 +192,14 @@ li {
 .div1, .div2 {
     display: inline-flex;
     flex-direction: row;
+    justify-content: center;
     padding-left: 20px;
     padding-bottom: 20px;
     width: max-content;
+}
+
+.stars {
+    margin-left: 15px;
 }
 
 .card {
@@ -208,9 +213,8 @@ li {
     margin-right: 20px;
 }
 
-.card h5, p, .stars, figure{
-    display: flex;
-    justify-content: center;
+.card h5, p {
+    padding-left: 15px;
 }
 
 .cardPop {
@@ -269,6 +273,10 @@ li {
     flex-flow: row wrap;
     width: 100%;
     height: fit-content;
+}
+
+#Activités {
+    width: 100%;
 }
 
 .cardAct {
