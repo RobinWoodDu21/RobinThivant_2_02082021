@@ -1,5 +1,10 @@
 body {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin: 0px;
+}
+
+form {
+    font-size: 1.5rem;
 }
 
 .logo {
@@ -23,6 +28,7 @@ body {
 
 .imap {
     padding: .9rem;
+    font-size: 1rem;
 }
 
 .searchBtn {
@@ -33,6 +39,21 @@ body {
 #iSearch {
     display: block;
     color: white;
+}
+
+.hebergement {
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+
+.sectPop {
+    border-radius: 0px;
+    width: 100%;
+}
+
+.sectHeb {
+    border: none;
+    background-color: white;
 }
 
 .actSection {

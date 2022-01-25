@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Raleway', 'Times New Roman', Times, serif;
+    margin: 0px;
 }
 
 b {
@@ -119,6 +120,7 @@ li {
     border: #F2F2F2 1px solid;
     padding-right: 10px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .divFiltre:hover {
@@ -171,7 +173,7 @@ li {
 }
 
 .sectHeb {
-    background-color: #d1d1d9;
+    background-color: #eeeeee;
     border-radius: 20px;
     margin-left: 25px;
     width: 63%;
@@ -179,7 +181,7 @@ li {
 }
 
 .sectPop {
-    background-color: #d1d1d9;
+    background-color: #eeeeee;
     border-radius: 20px;
     margin-left: 20px;
     width: 33%;
@@ -213,6 +215,11 @@ li {
     margin-right: 20px;
 }
 
+.card:hover {
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
 .card h5, p {
     padding-left: 15px;
 }
@@ -226,6 +233,11 @@ li {
     box-shadow: 0 0 16px grey;
     margin: 20px;
     padding: 0.2rem;
+}
+
+.cardPop:hover {
+    transform: scale(1.05);
+    transition: 300ms;
 }
 
 .divIntro {
@@ -258,10 +270,16 @@ li {
     justify-content: center;
 }
 
+.hPop {
+    position: relative;
+    right: 130px;
+    top: 15px;
+}
+
 .iPop {
     position: relative;
-    left: 20px;
-    top: 23px;
+    left: 130px;
+    top: 38px;
 }
 
 .titleAct {
@@ -287,6 +305,11 @@ li {
     box-sizing: border-box;
     box-shadow: 0 0 16px grey;
     margin-left: 25px;
+}
+
+.cardAct:hover {
+    transform: scale(1.05);
+    transition: 300ms;
 }
 
 .divActTitle {
