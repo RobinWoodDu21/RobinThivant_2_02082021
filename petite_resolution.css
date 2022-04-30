@@ -41,19 +41,50 @@ form {
     color: white;
 }
 
+.iDiv {
+    font-size: 1rem;
+}
+
 .hebergement {
     display: flex;
     flex-flow: column-reverse wrap;
 }
 
+.card {
+    width: auto;
+    margin-top: 30px;
+}
+
+.imgSectHeb {
+    width: 100%;
+    height: auto;
+}
+
 .sectPop {
     border-radius: 0px;
     width: 100%;
+    margin-left: 0px;
+}
+
+.hPop {
+    position: relative;
+    right: 310px;
+}
+
+.iPop {
+    position: relative;
+    left: 300px;
+    top: 50px;
 }
 
 .sectHeb {
     border: none;
     background-color: white;
+}
+
+.div1, .div2 {
+    display: flex;
+    flex-flow: column;
 }
 
 .actSection {
@@ -63,47 +94,52 @@ form {
 
 .divFooter {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
+    padding-left: 50px;
 }
 
 #vieuxPort {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 718px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #fort {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 718px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #frioul {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 718px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #pNdC {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 718px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #nDdlG {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 718px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #pL {
-    height: 100%;
-    width: 100%;    
+    height: auto;
+    width: 718px;    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.foot {
+    text-align: left;
 }

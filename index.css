@@ -89,6 +89,11 @@ li {
     font-weight: bold;
 }
 
+.input::placeholder {
+    font-weight: bold;
+    color: black;
+}
+
 .searchBtn {
     text-align: center;
     padding: .03rem 1.25rem;
@@ -176,8 +181,9 @@ li {
     background-color: #eeeeee;
     border-radius: 20px;
     margin-left: 25px;
-    width: 63%;
     height: fit-content;
+    padding-right: 25px;
+    width: 60%;
 }
 
 .sectPop {
@@ -191,13 +197,12 @@ li {
     padding-left: 20px;
 }
 
-.div1, .div2 {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
+.div1 {
+    display: flex;
+    flex-flow: row;
     padding-left: 20px;
     padding-bottom: 20px;
-    width: max-content;
+    justify-content: space-around;
 }
 
 .stars {
@@ -205,14 +210,13 @@ li {
 }
 
 .card {
-    height: fit-content;
+    height: auto;
     width: fit-content;
     background-color: white;
     border-radius: 20px;
     box-sizing: border-box;
     box-shadow: 0 0 16px grey;
     padding: 0.2rem;
-    margin-right: 20px;
 }
 
 .card:hover {
@@ -246,8 +250,8 @@ li {
 }
 
 .imgSectHeb {
-    width: 275px;
-    height: 180px;
+    width: 250px;
+    height: 200px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -334,7 +338,7 @@ li {
     margin-top: 25px;
 }
 
-.divFooter h3 {
+.foot {
     text-align: center;
 }
 
